@@ -1,0 +1,76 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: linear-gradient( #4417a4, black);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 1em auto;
+    width: 1050px;
+}
+
+td, th {
+    background-color: white;
+    padding: 8px;
+    text-align: left;
+}
+
+p {
+    font-size: small;
+    display: inline;
+}
+
+table>span>tr>th, span>tr>td {
+    column-span: 3;
+    background-color: blue;
+}
+
+.ActorPhoto {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.ActorPhotoContainer {
+    width: 15%;
+}
+
+.Role {
+    color: blue;
+    font-style: italic;
+    width: 15%;
+}
+
+#MainTitle {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 80%;
+}
+
+#Distribution {
+    background-color: blue;
+    color: white;
+    text-align: left;
+}
+
+#Cover {
+    width: 70%;
+    display: table-cell;
+    margin: auto;
+}
+
+#actor1 {
+    background-image: url(../images/Ahmed_Best.png);
+}
