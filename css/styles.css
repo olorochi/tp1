@@ -12,7 +12,7 @@ body {
 table {
     border-collapse: collapse;
     margin: 1em auto;
-    width: 1050px;
+    width: 950px;
 }
 
 td, th {
@@ -24,11 +24,6 @@ td, th {
 p {
     font-size: small;
     display: inline;
-}
-
-table>span>tr>th, span>tr>td {
-    column-span: 3;
-    background-color: blue;
 }
 
 .ActorPhoto {
@@ -49,7 +44,12 @@ table>span>tr>th, span>tr>td {
 .Role {
     color: blue;
     font-style: italic;
-    width: 15%;
+    width: 25%;
+}
+
+.DiscList {
+    list-style-type: disc;
+    list-style-position: inside;
 }
 
 #MainTitle {
@@ -65,10 +65,13 @@ table>span>tr>th, span>tr>td {
     text-align: left;
 }
 
+#CoverContainer {
+    width: 60%;
+}
+
 #Cover {
-    width: 70%;
-    display: table-cell;
     margin: auto;
+    display: block;
 }
 
 #actor1 {
