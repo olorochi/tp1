@@ -53,18 +53,27 @@ p {
     list-style-position: inside;
 }
 
+.h2 {
+    font-size: large;
+}
+
 #MainTitle {
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 95%;
+    font-size: 200%;
     font-family: 'Times New Roman', Times, serif;
+}
+
+#Synopsis {
+    font-size: large;
 }
 
 #Distribution {
     background-color: blue;
     color: white;
     text-align: left;
+    font-size: large;
 }
 
 #CoverContainer {
